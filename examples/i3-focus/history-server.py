@@ -10,8 +10,8 @@ import i3ipc
 
 MAX_WIN_HISTORY = 15
 
-parser = ArgumentParser(prog='i3-app-focus.py', description='''''', epilog='''''')
-parser.add_argument('--socket-file', default='/tmp/i3-app-focus.socket', help='Socket file path')
+parser = ArgumentParser(prog='history-server.py', description='''''', epilog='''''')
+parser.add_argument('--socket-file', default='/tmp/i3-focus-history-server.socket', help='Socket file path')
 (args, other) = parser.parse_known_args()
 
 
